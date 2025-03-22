@@ -31,7 +31,7 @@ function startImg() {
         // I update the position for the next frame
         x += dx;
         y += dy;
-    }, 30);
+    }, 200);
 }
 
 // This function stops the movement of the image
