@@ -1,0 +1,49 @@
+<!-- 
+ Name: Nosa Erhabor
+ Date: - March 2025 
+ -->
+<!-- The DOCTYPE tag is the first tag on the page, the tag tells the web browser that this is a HTML webpage. -->
+<!DOCTYPE html>
+<!-- The html tag is the next tag on the page. -->
+<html>
+<!-- The head tag contains meta information about the page for the web browser and search engine. -->
+<head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Add a link for the css file to the html file. -->
+    <link rel="stylesheet" href="main.css">
+    <!-- I am adding a link for my javascript file. -->
+    <script src="event.js"></script>
+
+    <!-- The title tag is the title of the page, it is displayed on the browser tab. -->
+    <title>CSC102 Home Page</title>
+</head>
+<!-- The body tag contains the content of the page that are displayed to the user. -->
+<body>
+    <nav>
+        <!-- I am adding a start button to move the meme image around the webpage. -->
+        <button id="startbtn" onclick="startImg()">Start</button>
+        <br>
+        <!-- I also added a stop button to stop moving the image. -->
+        <button id="stopbtn" onclick="stopImg()">Stop</button>
+
+        <p id="XandY"> X and Y coordinates</p>
+    </nav>
+
+    <!-- The h1 tag is a heading tag, it is used to display a heading on the page. -->
+    <h1>Welcome to CSC102 Home Page</h1>
+
+    <!-- The p tag is a paragraph tag, it has some spacing around it by default. -->
+    <br>
+    <br>
+    <p>
+        <!-- The img tag is used to display an image on the page. -->
+        <img id="memeImage" alt="Big Bang" src="Images/meme.jpg" width="400px" height="300px">
+    </p>
+</body>
+<footer>
+    <br>
+    <br>
+    &copy; 2025 Noe
+</footer>
+</html>
