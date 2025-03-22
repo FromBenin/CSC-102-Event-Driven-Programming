@@ -11,7 +11,7 @@ selector {
 body {
     background-color: #92e643;
     color: #141313da;
-    background-image: url('Images/background.jpg');
+    background-image: url('background.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
